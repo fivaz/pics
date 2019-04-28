@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Waser Pics';
+  description = 'Logo'
+  url = 'https://ssl.gstatic.com/social/photosui/images/logo_photos_color_192.png'
 }
