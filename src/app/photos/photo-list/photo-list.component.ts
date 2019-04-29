@@ -11,7 +11,6 @@ export class PhotoListComponent implements OnInit {
 
   photos: Photo[] = [];
   filter:string = '';
-  name:string = 'photos';
   
   constructor(private activatedRoute: ActivatedRoute) {}
     
