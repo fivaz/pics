@@ -1,0 +1,10 @@
+<ol class="list-unstyled">
+  <li *ngFor="let cols of rows" class="row">
+    <div *ngFor="let photo of cols" class="col-4">
+      <wp-photo 
+        [url]="photo.url" 
+        [description]="photo.description">
+      </wp-photo>
+    </div>  
+  </li>
+</ol>
