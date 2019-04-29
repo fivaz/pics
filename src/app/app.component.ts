@@ -9,14 +9,15 @@ import { PhotoService } from './photos/photo/photo.service';
 })
 export class AppComponent {
   title = 'Waser Pics';
-  photos: Object[] = [];
+  photos: any[] = [];
   
   constructor(photoService: PhotoService) {
 
     const observable = photoService.listFromUser('flavio');
 
     observable.subscribe(
-      photos => this.photos = photos,
+      photos => 
+        this.photos = photos,
       err => console.log(err.message)
     );
   }
