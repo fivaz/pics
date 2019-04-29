@@ -30,6 +30,7 @@ export class PhotoListComponent implements OnInit {
     const observable = 
       this.service.listFromUserPaginated(this.userName, ++this.currentPage);
     observable.subscribe(newPhotos => {
+      this.filter = '';
       this.photos = this.photos.concat(newPhotos);
       if(!newPhotos.length) this.hasMore = false;
     });  

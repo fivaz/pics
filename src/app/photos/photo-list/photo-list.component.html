@@ -1,4 +1,4 @@
-<wp-search (onTyping)="filter = $event"></wp-search>
+<wp-search (onTyping)="filter = $event" [value]="filter"></wp-search>
 
 <wp-photos [photos]="photos | filterByDescription: filter"></wp-photos>
 
