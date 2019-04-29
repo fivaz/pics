@@ -18,6 +18,6 @@ export class PhotoService{
         const params = new HttpParams()
             .append('page', page.toString());
         
-        return this.http.get<Photo[]>(API + "/" + userName + "/photos", {params: params});
+        return this.http.get<Photo[]>(API + "/" + userName + "/photos", {params});
     }
 }
