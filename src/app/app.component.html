@@ -1,6 +1,9 @@
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
+<h1>
+  Welcome to {{ title }}!
+</h1>
   
-  <wp-photo url="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA5Ny8wNzQvb3JpZ2luYWwvbW9ua2V5LWNvdW50aW5nLmpwZw==" description="money"></wp-photo>
-  <wp-photo url="https://cdn1.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg" description="dog"></wp-photo>
+<wp-photo 
+  *ngFor="let photo of photos" 
+  [url]="photo.url" 
+  [description]="photo.description">
+</wp-photo>
