@@ -11,7 +11,8 @@ import { ActivatedRoute } from '@angular/router';
 export class PhotoListComponent implements OnInit {
 
   photos: Photo[] = [];
-  filter = '';
+  filter:string = '';
+  name:string = 'photos';
   
   constructor(
     private photoService: PhotoService,
