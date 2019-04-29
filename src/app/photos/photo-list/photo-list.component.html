@@ -11,4 +11,4 @@
 
 <wp-photos [photos]="photos | filterByDescription: filter"></wp-photos>
 
-<wp-load-button></wp-load-button>
+<wp-load-button (click)="load()" [hasMore]="hasMore"></wp-load-button>
