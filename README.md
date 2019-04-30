@@ -3,7 +3,7 @@
 
 
 
-This project was built to improve my knowledge with Angular (https://angular.io/) and [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
+This project was built to improve my knowledge with [Angular] (https://angular.io/) and [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 
 
 ## Description
