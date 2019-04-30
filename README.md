@@ -12,7 +12,7 @@ In this app you can see a list of images and load more
 ## BackEnd NodeJS
 
 ## Features of Angular used
-* paramtered directives
+* Paramtered directives
 * Render
 * @HostListener
 * @OutPut() and @Input()
