@@ -20,7 +20,7 @@ In this app you can see a list of images and load more
 * ng-content
 * The enterilly app is organized in modules enssuring a loose coupling
 * if and else with *ngIf
-* interfaces as OnDestroy, OnInit and OnChange
+* Interfaces as OnDestroy, OnInit and OnChange
 * debounceTime to improve the performance of backend requests
 * Resolver
 * Pipelines
